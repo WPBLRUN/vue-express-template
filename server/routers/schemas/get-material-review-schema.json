@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "adminId",
+        "hierarchyId",
+        "rtbUserId",
+        "skip",
+        "limit"
+    ],
+    "properties": {
+        "adminId": {
+            "type": "string"
+        },
+        "hierarchyId": {
+            "type": "string"
+        },
+        "rtbUserId": {
+            "type": "string"
+        },
+        "skip": {
+            "type": "string"
+        },
+        "limit": {
+            "type": "string"
+        }
+    }
+}

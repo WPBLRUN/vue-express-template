@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "owner",
+        "skip",
+        "limit"
+    ],
+    "properties": {
+        "owner": {
+            "type": "string"
+        },
+        "skip": {
+            "type": "string"
+        },
+        "limit": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"
+        },
+        "sort": {
+            "type": "string"
+        }
+    }
+}

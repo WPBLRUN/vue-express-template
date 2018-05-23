@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "hierarchy",
+        "onDate",
+        "offDate"
+    ],
+    "properties": {
+        "hierarchy": {
+            "type": "object"
+        },
+        "onDate": {
+            "type": "object"
+        },
+        "offDate": {
+            "type": "object"
+        }
+    }
+}

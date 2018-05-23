@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "userId",
+        "playlistId",
+        "hierarchy",
+        "content"
+    ],
+    "properties": {
+        "ids": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "userId": {
+            "type": "string"
+        },
+        "playlistId": {
+            "type": "string"
+        },
+        "hierarchy": {
+            "type": "object"
+        },
+        "sort": {
+            "type": "number"
+        },
+        "content": {
+            "type": "string"
+        }
+    }
+}

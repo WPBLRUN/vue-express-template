@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "id",
+        "enabled"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "enabled": {
+            "type": "boolean"
+        },
+        "reason": {
+            "type": "string"
+        }
+    }
+}

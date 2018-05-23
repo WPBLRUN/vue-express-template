@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "ids"
+    ],
+    "properties": {
+        "ids": {
+            "type": "array",
+            "item": {
+                "type": "string"
+            }
+        }
+    }
+}

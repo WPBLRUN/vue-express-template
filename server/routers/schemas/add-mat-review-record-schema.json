@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "matId",
+        "source",
+        "name",
+        "size",
+        "type",
+        "matUrl",
+        "matCreateAt",
+        "reviewStatus",
+        "reviewer"
+    ],
+    "properties": {
+        "matId": {
+            "type": "string"
+        },
+        "source": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "size": {
+            "type": "number"
+        },
+        "type": {
+            "type": "string"
+        },
+        "matUrl": {
+            "type": "string"
+        },
+        "matCreateAt": {
+            "type": "string"
+        },
+        "reviewStatus": {
+            "type": "string"
+        },
+        "reviewer": {
+            "type": "string"
+        }
+    }
+}

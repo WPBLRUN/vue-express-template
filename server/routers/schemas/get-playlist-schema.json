@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "id"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "reviewStatus": {
+            "type": "string"
+        },
+        "reason": {
+            "type": "string"
+        },
+        "schedule_start": {
+            "type": "string"
+        },
+        "schedule_end": {
+            "type": "string"
+        },
+        "deployInfo": {
+            "type": "object",
+            "properties": {
+                "hierarchyLevel1": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "hierarchyLevel2": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "hierarchyLevel3": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "devices": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}

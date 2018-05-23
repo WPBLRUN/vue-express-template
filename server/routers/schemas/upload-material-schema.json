@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "type",
+        "material",
+        "hierarchy"
+    ],
+    "properties": {
+        "material": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "_id",
+                    "filename",
+                    "chunkSize",
+                    "md5",
+                    "type",
+                    "uploadDate"
+                ],
+                "properties": {
+                    "_id": {
+                        "type": "string"
+                    },
+                    "filename": {
+                        "type": "string"
+                    },
+                    "chunkSize": {
+                        "type": "number"
+                    },
+                    "md5": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "uploadDate": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "type": {
+            "type": "string"
+        },
+        "hierarchy": {
+            "type": "object"
+        }
+    }
+}

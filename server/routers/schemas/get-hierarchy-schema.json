@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "oneOf": [
+        {
+            "required": [
+                "id"
+            ]
+        },
+        {
+            "required": [
+                "level"
+            ]
+        }
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "level": {
+            "type": "string"
+        }
+    }
+}

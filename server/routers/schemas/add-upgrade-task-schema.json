@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "title",
+        "version",
+        "devices",
+        "size",
+        "type",
+        "fileUrl",
+        "fileName",
+        "fileId",
+        "md5",
+        "user"
+    ],
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "devices": {
+            "type": "object"
+        },
+        "size": {
+            "type": "number"
+        },
+        "type": {
+            "type": "string"
+        },
+        "fileUrl": {
+            "type": "string"
+        },
+        "fileName": {
+            "type": "string"
+        },
+        "fileId": {
+            "type": "string"
+        },
+        "md5": {
+            "type": "string"
+        },
+        "user": {
+            "type": "string"
+        }
+    }
+}

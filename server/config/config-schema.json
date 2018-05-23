@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "MONGO",
+        "LOG",
+        "DBUSER",
+        "DBPASSWORD",
+        "REDIS",
+        "PORT",
+        "USERSERVER",
+        "FILESERVER",
+        "DMPSERVER",
+        "BOXAPISERVER",
+        "MAILSERVER"
+    ],
+    "properties": {
+        "MONGO": {
+            "type": "string"
+        },
+        "LOG": {
+            "enum": [
+                "info",
+                "error",
+                "verbose",
+                "debug"
+            ]
+        },
+        "DBUSER": {
+            "type": "string"
+        },
+        "DBPASSWORD": {
+            "type": "string"
+        },
+        "REDIS": {
+            "type": "string"
+        },
+        "PORT": {
+            "type": "string"
+        },
+        "USERSERVER": {
+            "type": "string"
+        },
+        "FILESERVER": {
+            "type": "string"
+        },
+        "DMPSERVER": {
+            "type": "string"
+        },
+        "BOXAPISERVER": {
+            "type": "string"
+        },
+        "MAILSERVER": {
+            "type": "string"
+        }
+    }
+}

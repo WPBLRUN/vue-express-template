@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "required": [
+        "id",
+        "snapshot"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "snapshot": {
+            "type": "string"
+        }
+    }
+}
